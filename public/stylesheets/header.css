@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.pane{
+  display: flex;
+  background: #FFCC00;
+  color: white;
+  align-content: space-around;
+  align-items: center;
+}
+
+.pane > img {
+  height: 6em;
+}
+.pane > h1 {
+  text-shadow: 2px 2px #000000;
+  padding-left: 6em;
+}
+
+.navbar {
+  background: #dddddd;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 2em;
+}
+.navbar > a{
+  height: 100%;
+  flex-grow: 1;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding-top: 0.5em;
+  transition: color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar > a:hover {
+  color: white;
+  background: green;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
