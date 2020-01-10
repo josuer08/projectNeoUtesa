@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/public/stylesheets', express.static('stylesheets'));
 app.use('/public/images', express.static('images'));
 app.use('/public/javascripts', express.static('javascripts'));
-app.use('/favicon.ico', express.static('/public/images/favicon.ico'));
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
