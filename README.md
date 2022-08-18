@@ -1,2 +1,7 @@
 # projectNeoUtesa
 This is a wrapper for the old, unstable, ugly, offensive, obstrusive, etc.... webpage of this university
+```diff
+- THIS PROJECT IS ARCHIVED AND WONT RECEIVE UPDATES IN THE FUTURE
+- THIS IS NOW JUST A REFERENCE PROJECT I SHOW PEOPLE THAT WANT TO SEE SOME NODE
++ FEEL FREE TO MAKE ANY PULL REQUESTS, THEY WILL BE APPRECIATED AND POSIBLY PULLED
+```
